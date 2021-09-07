@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scs">
+    <link rel="stylesheet" href="Style.css">
+    <title>Pepito</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <div class="image-container">
+                <img class="image" id="image" src="descarga.png"></img>
+            </div>
+            <div class="controls-container">
+                <button id="play">play</button>
+                <button id="pause">pause</button>
+                <button id="stop">stop
+                  <i class="icon-style fas fa-stop"></i></button>
+            </div>
+            <input type="range" id="tiempo" min="0" />
+            <button id="volume-up">+</button>
+            <button id="volume-down">-</button>
+            <button id="controlVolumen">Control de Volumen</button>
+        </div>
+    </div>
+    <audio id="audio" src="Mc.mp3"></audio>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
